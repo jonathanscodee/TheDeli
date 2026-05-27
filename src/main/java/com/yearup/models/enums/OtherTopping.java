@@ -1,4 +1,5 @@
 package com.yearup.models.enums;
 
-public class OtherTopping {
+public enum OtherTopping {
+    STEAK(Type.MEAT)
 }
