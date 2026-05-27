@@ -1,4 +1,8 @@
 package com.yearup.models.enums;
 
-public class BreadType {
+public enum BreadType {
+    WHITE,
+    WHEAT,
+    RYE,
+    WRAP
 }

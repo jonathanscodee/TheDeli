@@ -1,4 +1,7 @@
 package com.yearup.models.enums;
 
-public class DrinkSize {
+public enum DrinkSize {
+    SMALL,
+    MEDIUM,
+    LARGE
 }
