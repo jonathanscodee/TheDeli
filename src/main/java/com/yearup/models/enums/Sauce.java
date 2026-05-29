@@ -6,5 +6,6 @@ public enum Sauce {
     KETCHUP,
     RANCH,
     THOUSAND_ISLAND,
-    VINAIGRETTE
+    VINAIGRETTE,
+    AU_JUS
 }

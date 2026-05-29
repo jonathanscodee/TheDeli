@@ -2,7 +2,7 @@ package com.yearup.models;
 
 public class Chips extends Product{
 
-    public Chips(String name, double price) {
+    public Chips(String name) {
         super(name, 0);
     }
 
