@@ -11,7 +11,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class DataManager {
-    String databaseFilepath = "src/main/resources/transaction" + ".csv";
+    String databaseFilepath = "src/main/resources/transaction-history" + ".csv";
     private OrderServiceImplement orderService;
     private List<Order> orders = new ArrayList<>(); // Initialize the orders list
 
@@ -21,7 +21,7 @@ public class DataManager {
 
     public void receiptGenerator(Order order) {
         LocalDateTime today = LocalDateTime.now();
-        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyyMMdd HH:mm:ss");
+        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyyMMdd_HHmmss");
         DateTimeFormatter ordNum = DateTimeFormatter.ofPattern("yyyyMMdd-hhmmss");
         String ordNumFormat = today.format(ordNum);
         String formattedToday = today.format(formatter);
