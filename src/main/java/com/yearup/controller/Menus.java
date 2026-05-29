@@ -27,11 +27,9 @@ public class Menus {
 ╔══════════════════════════════════════════════════════════╗
 ║                     Chips Selection                      ║
 ╠══════════════════════════════════════════════════════════╣
-║                 1: Lays Original                         ║
-║                 2: Lays BBQ                              ║
-║                 3: Lays Sour Cream & Onion               ║
-║                 4: Doritos Nacho Cheese                  ║
-║                 5: Doritos Cool Ranch                    ║
+║                 1: Doritos Nacho Cheese                  ║
+║                 2: Cheetos                               ║
+║                 3: Lays                                  ║
 ╚══════════════════════════════════════════════════════════╝
                  Choose an option:\s""";
 
@@ -74,10 +72,9 @@ public class Menus {
 ╔══════════════════════════════════════════════════════════╗
 ║                       Drinks                             ║
 ╠══════════════════════════════════════════════════════════╣
-║                 1: Coke                                  ║
-║                 2: Tea                                   ║
-║                 3: Sprite                                ║
-║                 4: Fanta                                 ║
+║                 1: Raspberry Ice Tea                     ║
+║                 2: Diet Coke                             ║
+║                 3: Coke                                  ║
 ╚══════════════════════════════════════════════════════════╝
                  Choose an option:\s""";
 
