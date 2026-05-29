@@ -1,4 +1,7 @@
 package com.yearup.services.interfaces;
 
-public class DrinkService {
+import com.yearup.models.Drink;
+
+public interface DrinkService {
+    Drink selectDrink();
 }

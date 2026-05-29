@@ -1,4 +1,7 @@
 package com.yearup.services.interfaces;
 
-public class ChipService {
+import com.yearup.models.Chips;
+
+public interface ChipService {
+    Chips selectChips();
 }

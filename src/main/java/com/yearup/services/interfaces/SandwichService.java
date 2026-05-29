@@ -1,4 +1,7 @@
 package com.yearup.services.interfaces;
 
-public class SandwichService {
+import com.yearup.models.Sandwich;
+
+public interface SandwichService {
+    Sandwich createSandwich();
 }
